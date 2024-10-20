@@ -7,6 +7,6 @@ This example is adapted from anthropic's [contextual embeddings cookbook](https:
 ## Changes
 
 1. Local Vector DB -> OpenSearch serverless
-2. Claude 3 on Anthropic endpoints -> Claude 3 on Bedrock
+2. Claude 3 on Anthropic endpoints (with prompt caching) -> Claude 3 on Bedrock (no prompt caching)
 3. VoyageAI embedding endpoint -> Bge-m3 on Sagemaker (Jumpstart)
 4. Reranker on Cohere endpoints -> Cohere reranker 3 on Sagemaker (Jumpstart)
